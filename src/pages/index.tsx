@@ -152,7 +152,7 @@ const Home: NextPage = () => {
                 </Text>
               </Box>
               <Box>
-                {isMobile ? <Img src="images/building.svg" alt="Prédio empresarial" /> : <></>}
+                <Img src="images/building.svg" alt="Prédio empresarial" />
                 <Text as="p" mt="24px" color="dark.700" textAlign="center" fontWeight="semibold">
                   moderno
                 </Text>
