@@ -25,16 +25,16 @@
 
 <h1 align="center" >Preview Mobile</h1>
 <p align="center"> 
-  <img alt="first photo" src=".github/mobilePhoto/firstPhoto.png" width="100%">
+  <img alt="first photo" src=".github/mobilePhotos/firstPhoto.png" width="100%">
 </p>
 <p align="center"> 
-  <img alt="second photo" src=".github/mobilePhoto/secondPhoto.png" width="100%">
+  <img alt="second photo" src=".github/mobilePhotos/secondPhoto.png" width="100%">
 </p>
 <p align="center"> 
-  <img alt="third photo" src=".github/mobilePhoto/thirdPhoto.png" width="100%">
+  <img alt="third photo" src=".github/mobilePhotos/thirdPhoto.png" width="100%">
 </p>
 <p align="center"> 
-  <img alt="fourt photo" src=".github/mobilePhoto/fourtPhoto.png" width="100%">
+  <img alt="fourt photo" src=".github/mobilePhotos/fourtPhoto.png" width="100%">
 </p>
 <br>
 
