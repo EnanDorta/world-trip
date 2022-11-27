@@ -19,9 +19,10 @@ const Europa = () => {
         <Flex
           display="flex"
           height={['150px', '500px']}
+          margin="0 auto"
           backgroundRepeat="no-repeat"
           alignItems={['center', 'flex-end']}
-          width="100%"
+          width="90%"
           bgColor="light.700"
           backgroundImage={['images/europeMobile.png', 'images/europaImg.svg']}
         >
