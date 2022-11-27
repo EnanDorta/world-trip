@@ -17,14 +17,6 @@ const Home: NextPage = () => {
     lg: false,
   });
 
-  // useEffect(() => {
-  //   const isMobile = {
-  //     base: true,
-  //     lg: false,
-  //   }
-  //   console.log(isMobile)
-  // }, [])
-
   const settings: SliderProps = {
     preventClicksPropagation: false,
     preventClicks: false,
@@ -37,7 +29,8 @@ const Home: NextPage = () => {
   };
 
   function handleOpenCountry(href: string) {
-    router.push(href);
+    const urlActual = window.location.href
+    router.push(`${urlActual}/${href}`);
   }
 
   return (
@@ -180,7 +173,7 @@ const Home: NextPage = () => {
           <Box width="93%" height="450px" mx="auto" my="6">
             <Slider settings={settings}>
               {Cards_Slide.map(({ title, description, backgroundImage }, index) => (
-                <Slide onClick={() => handleOpenCountry(`http://localhost:3000/${title}`)} key={index}>
+                <Slide onClick={() => handleOpenCountry(title)} key={index}>
                   <CardSlide title={title} description={description} backgroundImage={backgroundImage} />
                 </Slide>
               ))}
