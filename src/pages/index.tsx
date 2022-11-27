@@ -30,7 +30,7 @@ const Home: NextPage = () => {
 
   function handleOpenCountry(href: string) {
     const urlActual = window.location.href
-    router.push(`${urlActual}/${href}`);
+    router.push(`${urlActual}${href}`);
   }
 
   return (
@@ -98,7 +98,7 @@ const Home: NextPage = () => {
           <Box width="375px" height="250px" my="24px">
             <Slider settings={settings}>
               {Cards_Slide.map(({ title, description, backgroundImage }, index) => (
-                <Slide onClick={() => handleOpenCountry(`http://localhost:3000/${title}`)} key={index}>
+                <Slide onClick={() => handleOpenCountry(title)} key={index}>
                   <CardSlide title={title} description={description} backgroundImage={backgroundImage} />
                 </Slide>
               ))}
