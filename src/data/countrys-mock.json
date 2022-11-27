@@ -1,0 +1,42 @@
+[
+  {
+    "nameCity": "Londres",
+    "nameCountry": "Reino Unido",
+    "srcImgCard": "images/europa/londres.png",
+    "srcIconCard": "images/europa/reinoUnidoBandeira.png",
+    "altImgCard": "Londres",
+    "altIconCard": "Bandeira Reino Unido"
+  },
+  {
+    "nameCity": "Paris",
+    "nameCountry": "França",
+    "srcImgCard": "images/europa/paris.png",
+    "srcIconCard": "images/europa/francaBandeira.png",
+    "altImgCard": "Paris",
+    "altIconCard": "Bandeira França"
+  },
+  {
+    "nameCity": "Roma",
+    "nameCountry": "Itália",
+    "srcImgCard": "images/europa/roma.png",
+    "srcIconCard": "images/europa/italiaBandeira.png",
+    "altImgCard": "Roma",
+    "altIconCard": "Bandeira Itália"
+  },
+  {
+    "nameCity": "Praga",
+    "nameCountry": "República Tcheca",
+    "srcImgCard": "images/europa/praga.png",
+    "srcIconCard": "images/europa/republicaTchecaBandeira.png",
+    "altImgCard": "Praga",
+    "altIconCard": "Bandeira República Tcheca"
+  },
+  {
+    "nameCity": "Amsterdã",
+    "nameCountry": "República Tcheca",
+    "srcImgCard": "images/europa/amsterda.png",
+    "srcIconCard": "images/europa/holandaBandeira.png",
+    "altImgCard": "Amsterdã",
+    "altIconCard": "Bandeira Holanda"
+  }
+]
